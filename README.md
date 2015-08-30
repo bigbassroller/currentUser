@@ -1,3 +1,3 @@
 # aqua-currentuser
-A component plugin for Aqua website and user system (Hapi/React/Flux)that displays the current user.
-http://jedireza.github.io/aqua/ 
+A component plugin that helps display the current user for the [Aqua](https://github.com/jedireza/aqua) website and user system (Hapi/React/Flux).
+
