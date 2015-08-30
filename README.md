@@ -1,7 +1,8 @@
 # aqua-currentuser
 A component plugin that helps display the current user for the [Aqua](https://github.com/jedireza/aqua) website and user system (Hapi/React/Flux).
 
-## Example using /client/pages/account/components/NavBar.jsx
+## Example 
+Using /client/pages/account/components/NavBar.jsx...
 
 ```javascript
 var React = require('react/addons');
