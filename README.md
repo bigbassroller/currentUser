@@ -3,6 +3,7 @@ A component plugin that helps display the current user for the [Aqua](https://gi
 
 ## Example using /client/pages/account/components/NavBar.jsx
 
+```javascript
 var React = require('react/addons');
 var ReactRouter = require('react-router');
 var ClassNames = require('classnames');
@@ -114,6 +115,7 @@ var Component = React.createClass({
         );
     }
 });
+```
 
 
 module.exports = Component;
