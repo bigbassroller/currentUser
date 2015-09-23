@@ -22,7 +22,7 @@ var Component = React.createClass({
     getInitialState: function () {
 
         Actions.getUserSettings();
-        
+
         return {
              navBarOpen: false
          },
@@ -95,19 +95,13 @@ var Component = React.createClass({
                             <li className={this.isNavActive(['home'])}>
                                 <Link to="home">My account</Link>
                             </li>
-                            <li className={this.isNavActive(['settings'])}>
-                                <Link to="settings">Settings</Link>
-                            </li>
-                            <li className={this.isNavActive(['posts', 'postDetails'])}>
-                                <Link to="posts">Posts</Link>
-                            </li>
                         </ul>
                         <ul className="nav navbar-nav navbar-right">
                             <li>
                                 <a href="/login/logout">Sign out</a>
                             </li>
-                            <li>
-                               <a href="{javascript:void(0)}">Hello {currentUser}</a>
+                            <li className={this.isNavActive(['settings'])}>
+                                <Link to="settings">Hello {currentUser}</Link>
                             </li>
                         </ul>
                     </div>
@@ -116,7 +110,5 @@ var Component = React.createClass({
         );
     }
 });
-```
-
 
 module.exports = Component;
